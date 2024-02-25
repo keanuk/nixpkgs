@@ -1321,6 +1321,23 @@ let
         };
       };
 
+      earthly.earthfile-syntax-highlighting = buildVscodeMarketplaceExtension {
+        mktplcRef = {
+          name = "earthfile-syntax-highlighting";
+          publisher = "earthly";
+          version = "0.0.16";
+          sha256 = "c54d6fd4d2f503a1031be92ff118b5eb1b997907511734e730e08b1a90a6960f";
+        };
+        meta = {
+          changelog = "https://marketplace.visualstudio.com/items/earthly.earthfile-syntax-highlighting/changelog";
+          description = "Syntax highlighting for Earthly build Earthfiles.";
+          downloadPage = "https://marketplace.visualstudio.com/items?itemName=earthly.earthfile-syntax-highlighting";
+          homepage = "https://github.com/earthly/earthfile-grammar";
+          license = lib.licenses.mpl20;
+          maintainers = [ lib.maintainers.DataHearth ];
+        };
+      };
+
       ecmel.vscode-html-css = buildVscodeMarketplaceExtension {
         mktplcRef = {
           name = "vscode-html-css";
@@ -1383,8 +1400,8 @@ let
         mktplcRef = {
           name = "elixir-ls";
           publisher = "JakeBecker";
-          version = "0.19.0";
-          sha256 = "sha256-31eenBOVUEY3MFaVmAjZsypr7U0d6IfVR3ZJfDqi3OY=";
+          version = "0.20.0";
+          sha256 = "sha256-p+YNBRzzA/EezBMxI5Rmdb8SdJgFV7QwuLVi1mcJV+E=";
         };
         meta = {
           changelog = "https://marketplace.visualstudio.com/items/JakeBecker.elixir-ls/changelog";
@@ -2507,8 +2524,8 @@ let
         mktplcRef = {
           name = "typst-preview";
           publisher = "mgt19937";
-          version = "0.10.5";
-          sha256 = "sha256-cR5Pyokzmf8dNlsUkcwwfPx3jtJCQHRwTpYk78ovgrM=";
+          version = "0.10.8";
+          sha256 = "sha256-Ad6eCAuueeAeh6z/kk/F2HhbV4tp/XmiGySA2fn5wqY=";
         };
 
         buildInputs = [
@@ -2580,6 +2597,23 @@ let
           license = lib.licenses.bsd0;
           downloadPage = "https://marketplace.visualstudio.com/items?itemName=mkhl.direnv";
           maintainers = [ lib.maintainers.nullx76 ];
+        };
+      };
+
+      moshfeu.compare-folders = buildVscodeMarketplaceExtension {
+        mktplcRef = {
+          name = "compare-folders";
+          publisher = "moshfeu";
+          version = "0.24.2";
+          sha256 = "sha256-EiGuYRMN8bXq+Cya38U+dCX2W0wzIeP0yb39WBJaX1U=";
+        };
+
+        meta = {
+          changelog = "https://github.com/moshfeu/vscode-compare-folders/releases";
+          description = "The extension allows you to compare folders, show the diffs in a list and present diff in a splitted view side by side";
+          downloadPage = "https://marketplace.visualstudio.com/items?itemName=moshfeu.compare-folders";
+          homepage = "https://github.com/moshfeu/vscode-compare-folders";
+          license = lib.licenses.mit;
         };
       };
 

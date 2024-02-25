@@ -617,6 +617,18 @@ final: prev:
     meta.homepage = "https://github.com/goolord/alpha-nvim/";
   };
 
+  animation-nvim = buildVimPlugin {
+    pname = "animation.nvim";
+    version = "2022-09-18";
+    src = fetchFromGitHub {
+      owner = "anuvyklack";
+      repo = "animation.nvim";
+      rev = "fb77091ab72ec9971aee0562e7081182527aaa6a";
+      sha256 = "0yaxp3l33af1k6na0jikwmr0nxk862ihpq8r0042mll1ily7689b";
+    };
+    meta.homepage = "https://github.com/anuvyklack/animation.nvim/";
+  };
+
   aniseed = buildVimPlugin {
     pname = "aniseed";
     version = "2023-07-06";
@@ -7968,12 +7980,12 @@ final: prev:
 
   nvim-tree-lua = buildVimPlugin {
     pname = "nvim-tree.lua";
-    version = "2024-02-12";
+    version = "2024-02-20";
     src = fetchFromGitHub {
       owner = "nvim-tree";
       repo = "nvim-tree.lua";
-      rev = "863cf832ceb0b2377c913b7696dd7d64f4978941";
-      sha256 = "1pcfv6skwxifyzh94a8rjzz3gffflxlf5c2zvs851adc1lkhbwrp";
+      rev = "030defdb6522f5f716d8201d20ca1a2baa57ca66";
+      sha256 = "sha256-eWqm1Vk3KQspImy/k2aMXFmsXkVQkMjrVidUVmEJzek=";
     };
     meta.homepage = "https://github.com/nvim-tree/nvim-tree.lua/";
   };
