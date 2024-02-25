@@ -72,6 +72,8 @@ let tests = {
 
       mrxvt.pkg = p: p.mrxvt;
 
+      ptyxis.pkg = p: p.ptyxis;
+
       qterminal.pkg = p: p.lxqt.qterminal;
       qterminal.kill = true;
 

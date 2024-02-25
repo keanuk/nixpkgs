@@ -9860,6 +9860,13 @@
     githubId = 37185887;
     name = "Calvin Kim";
   };
+  keanuk = {
+    email = "keanu@kerr.us";
+    matrix = "@keanuk:matrix.org";
+    name = "Keanu Kerr";
+    github = "keanuk";
+    githubId = 3502765;
+  };
   keenanweaver = {
     email = "keenanweaver@protonmail.com";
     name = "Keenan Weaver";

@@ -3056,6 +3056,8 @@ with pkgs;
 
   mrxvt = callPackage ../applications/terminal-emulators/mrxvt { };
 
+  ptyxis = callPackage ../applications/terminal-emulators/ptyxis { };
+
   rxvt = callPackage ../applications/terminal-emulators/rxvt { };
 
   rxvt-unicode = callPackage ../applications/terminal-emulators/rxvt-unicode/wrapper.nix { };
